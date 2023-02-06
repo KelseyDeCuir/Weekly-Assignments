@@ -37,7 +37,7 @@ Partial Class frmBurgers
         '
         'lblHeading
         '
-        Me.lblHeading.Font = New System.Drawing.Font("Tahoma", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblHeading.Font = New System.Drawing.Font("Tahoma", 16.0!, System.Drawing.FontStyle.Bold)
         Me.lblHeading.Location = New System.Drawing.Point(270, 23)
         Me.lblHeading.Name = "lblHeading"
         Me.lblHeading.Size = New System.Drawing.Size(305, 33)
@@ -100,7 +100,7 @@ Partial Class frmBurgers
         'lblConfirmation
         '
         Me.lblConfirmation.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblConfirmation.Location = New System.Drawing.Point(312, 439)
+        Me.lblConfirmation.Location = New System.Drawing.Point(314, 445)
         Me.lblConfirmation.Name = "lblConfirmation"
         Me.lblConfirmation.Size = New System.Drawing.Size(172, 18)
         Me.lblConfirmation.TabIndex = 7
@@ -109,7 +109,7 @@ Partial Class frmBurgers
         '
         'btnExit
         '
-        Me.btnExit.Location = New System.Drawing.Point(340, 504)
+        Me.btnExit.Location = New System.Drawing.Point(340, 487)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(128, 35)
         Me.btnExit.TabIndex = 8
