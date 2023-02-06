@@ -109,7 +109,7 @@ Partial Class frmBurgers
         '
         'btnExit
         '
-        Me.btnExit.Location = New System.Drawing.Point(340, 487)
+        Me.btnExit.Location = New System.Drawing.Point(340, 476)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(128, 35)
         Me.btnExit.TabIndex = 8
