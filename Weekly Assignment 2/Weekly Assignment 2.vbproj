@@ -73,11 +73,10 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmBurgers.vb">
-      <SubType>Form</SubType>
+    <Compile Include="..\..\..\..\..\GUI Dev\Weekly Assignment 2.Designer.vb">
+      <DependentUpon>Weekly Assignment 2.vb</DependentUpon>
     </Compile>
-    <Compile Include="frmBurgers.Designer.vb">
-      <DependentUpon>frmBurgers.vb</DependentUpon>
+    <Compile Include="..\..\..\..\..\GUI Dev\Weekly Assignment 2.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -97,8 +96,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="frmBurgers.resx">
-      <DependentUpon>frmBurgers.vb</DependentUpon>
+    <EmbeddedResource Include="..\..\..\..\..\GUI Dev\Weekly Assignment 2.resx">
+      <DependentUpon>Weekly Assignment 2.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -118,6 +117,12 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\veggie.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
